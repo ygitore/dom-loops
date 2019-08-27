@@ -8,7 +8,6 @@ const printRainbow = (colorArr)=>{
 }
 const printToDom = (toPrint, diviId)=>{
     document.getElementById(diviId).innerHTML +=toPrint;
-
 }
 printRainbow(colors);
 
